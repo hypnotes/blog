@@ -25,19 +25,6 @@ export const MainHeader = () => {
             <Typography variant="h5">HYPNOTES</Typography>
           </LogoArea>
         </Link>
-        {/* <NavContainer>
-          {navLinks.map((link) => {
-            return (
-              <Link
-                key={link.name}
-                href={link.url}
-                style={{ textDecoration: "none", color: "inherit" }}
-              >
-                {link.name}
-              </Link>
-            );
-          })}
-        </NavContainer> */}
       </LeftHeader>
       <RightHeader>
         <IconButton onClick={toggleTheme}>
