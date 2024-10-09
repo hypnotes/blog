@@ -9,7 +9,7 @@ import Link from "next/link";
 export const Card = ({ item }: { item: PostDataProps }) => {
   return (
     <Link
-      href={`/posts/${item.index}`}
+      href={`/posts/${item.id}`}
       style={{ textDecoration: "none", color: "inherit" }}
     >
       <Container>

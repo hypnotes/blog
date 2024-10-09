@@ -24,7 +24,7 @@ const PostList = () => {
   return (
     <Box display={"block"}>
       {tempData.map((item) => (
-        <Link key={item.index} href={`/posts/${item.index}`}>
+        <Link key={item.id} href={`/posts/${item.id}`}>
           <Button fullWidth variant="outlined" style={{ margin: 10 }}>
             {item.title}
           </Button>

@@ -15,7 +15,7 @@ export const PostGrid = () => {
           .filter((data) => data.isDark === isDark)
           .map((data) => {
             return (
-              <Grid key={data.index} size={{ xs: 12, sm: 6, md: 4 }}>
+              <Grid key={data.id} size={{ xs: 12, sm: 6, md: 4 }}>
                 <Card item={data} />
               </Grid>
             );

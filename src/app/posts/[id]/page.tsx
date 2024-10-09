@@ -8,7 +8,7 @@ import { ArrowBack } from "@mui/icons-material";
 const PostDetailPage = () => {
   const { id } = useParams();
 
-  const item = tempData.find((data) => data.index === Number(id));
+  const item = tempData.find((data) => data.id === Number(id));
 
   if (!item) {
     notFound();
